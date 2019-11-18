@@ -1,0 +1,43 @@
+//Pseudocode
+
+//01. Newton 2nd Law ======================
+
+STORE "mass" with value 600
+STORE "acceleration" with value 2
+STORE "newton" with any value
+
+CALCULATE "mass" times "acceleration"
+SET "newton" value with calculate result
+
+DISPLAY "newton"
+
+//02. Leap Year ===========================
+
+STORE "year" with any value
+
+IF "year" mod 4 equals to 0 and "year" mod 100 not equals to 0
+    DISPLAY "Leap Year"
+IF ELSE "year" mod 4 equals to 0 and "year" mod 100 equals to 0 and "year" mod 400 equals to 0
+    DISPLAY "Leap Year"
+ELSE
+    DISPLAY "Not a Leap Year"
+
+//03. Laundry Day =========================
+
+STORE "clothes" to 0
+
+WHILE "clothes" > 20
+INCREMENT "clothes"
+
+DISPLAY "Foxie, turn on the washing machine !"
+
+//04. Nails Inspection =====================
+
+STORE "student" to 0
+
+WHILE "student" < 40
+INCREMENT "student"
+IF "student" equals to "long nails"
+    DISPLAY "Punish"
+ELSE
+    DISPLAY "Compliment"
