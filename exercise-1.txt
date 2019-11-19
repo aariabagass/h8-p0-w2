@@ -24,18 +24,18 @@ ELSE
 
 //03. Laundry Day =========================
 
-STORE "clothes" to 0
+STORE "clothes" to 1
 
-WHILE "clothes" < 20
+WHILE "clothes" < 21
 INCREMENT "clothes"
 
 DISPLAY "Foxie, turn on the washing machine !"
 
 //04. Nails Inspection =====================
 
-STORE "student" to 0
+STORE "student" to 1
 
-WHILE "student" < 40
+WHILE "student" < 41
 INCREMENT "student"
 IF "student" equals to "long nails"
     DISPLAY "Punish"
