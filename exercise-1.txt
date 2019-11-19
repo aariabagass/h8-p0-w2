@@ -26,7 +26,7 @@ ELSE
 
 STORE "clothes" to 0
 
-WHILE "clothes" > 20
+WHILE "clothes" < 21
 INCREMENT "clothes"
 
 DISPLAY "Foxie, turn on the washing machine !"
@@ -35,7 +35,7 @@ DISPLAY "Foxie, turn on the washing machine !"
 
 STORE "student" to 0
 
-WHILE "student" < 40
+WHILE "student" < 41
 INCREMENT "student"
 IF "student" equals to "long nails"
     DISPLAY "Punish"
